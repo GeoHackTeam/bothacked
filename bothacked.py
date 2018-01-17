@@ -55,7 +55,7 @@ def down_it(item):
 				print("\033[91mshut<->down\033[0m")
 			time.sleep(.1)
 	except socket.error as e:
-		print("\033[91mno connection! server maybe down\033[0m")
+		print("\033[91mGaitishulia dzma ;) By X:xUzManN/A/\033[0m")
 		#print("\033[91m",e,"\033[0m")
 		time.sleep(.1)
 
@@ -81,8 +81,7 @@ def usage():
 	magalitad : ./bothacked.py [-s] [-p] [-t]
 	-h : help
 	-s : server ip
-	-p : port 80
-	-t : turbo default 135 \033[0m''')
+	-p : port 80 \033[0m''')
 	sys.exit()
 
 
@@ -130,7 +129,7 @@ if __name__ == '__main__':
 		usage()
 	get_parameters()
 	print("\033[92m",host," port: ",str(port)," turbo: ",str(thr),"\033[0m")
-	print("\033[94mPlease wait...\033[0m")
+	print("\033[94mGtxovt Daelodot...\033[0m")
 	user_agent()
 	my_bots()
 	time.sleep(5)
